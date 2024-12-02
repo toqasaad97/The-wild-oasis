@@ -1,5 +1,5 @@
 import { Josefin_Sans } from "next/font/google";
-// import '../styles/globals.css' 
+import '@/styles/globals.css'
 const josefin = Josefin_Sans({
   subsets: ["latin"],
   display: "swap",
