@@ -1,8 +1,8 @@
 import Image from 'next/image';
-import { EyeSlashIcon, MapPinIcon, UsersIcon } from '@heroicons/react/24/solid';
+// import { EyeSlashIcon, MapPinIcon, UsersIcon } from '@heroicons/react/24/solid';
 import TextExpander from './TextExpander';
 
-function CabinView({ cabin }) {
+function CabinView({ cabin }:any) {
   const { id, name, maxCapacity, regularPrice, discount, image, description } =
     cabin;
 
@@ -29,20 +29,20 @@ function CabinView({ cabin }) {
 
         <ul className='flex flex-col gap-4 mb-7'>
           <li className='flex gap-3 items-center'>
-            <UsersIcon className='h-5 w-5 text-primary-600' />
+            {/* <UsersIcon className='h-5 w-5 text-primary-600' /> */}
             <span className='text-lg'>
               For up to <span className='font-bold'>{maxCapacity}</span> guests
             </span>
           </li>
           <li className='flex gap-3 items-center'>
-            <MapPinIcon className='h-5 w-5 text-primary-600' />
+            {/* <MapPinIcon className='h-5 w-5 text-primary-600' /> */}
             <span className='text-lg'>
               Located in the heart of the{' '}
               <span className='font-bold'>Dolomites</span> (Italy)
             </span>
           </li>
           <li className='flex gap-3 items-center'>
-            <EyeSlashIcon className='h-5 w-5 text-primary-600' />
+            {/* <EyeSlashIcon className='h-5 w-5 text-primary-600' /> */}
             <span className='text-lg'>
               Privacy <span className='font-bold'>100%</span> guaranteed
             </span>

@@ -13,7 +13,7 @@ function Logo() {
         width='60'
         alt='The Wild Oasis logo'
       />
-    
+
     </Link>
   );
 }
